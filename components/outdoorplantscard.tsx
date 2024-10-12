@@ -5,9 +5,9 @@ export default function OutdoorCardComponent() {
     <div className="flex items-center gap-8 grid grid-cols-4">
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-        <small className="text-default-500">12 Pieces</small>
+        <small className="text-default-500">10 Pieces</small>
         <h4 className="font-bold text-large pr-4">Lavendar</h4>
-        <h4 className="font-normal text-default-900">$12.50</h4>
+        <h4 className="font-normal text-default-900">$7.99</h4>
       </CardHeader>
       <CardBody className="flex justify-center overflow-visible py-2">
         <Image
@@ -20,9 +20,9 @@ export default function OutdoorCardComponent() {
     </Card>
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-        <small className="text-default-500">12 Pieces</small>
+        <small className="text-default-500">15 Pieces</small>
         <h4 className="font-bold text-large pr-4">Rosemary</h4>
-        <h4 className="font-normal text-default-900">$12.50</h4>
+        <h4 className="font-normal text-default-900">$5.99</h4>
       </CardHeader>
       <CardBody className="flex justify-center overflow-visible py-2">
         <Image
@@ -36,10 +36,10 @@ export default function OutdoorCardComponent() {
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
-        <small className="text-default-500">12 Pieces</small>
+        <small className="text-default-500">40 Pieces</small>
         
         <h4 className="font-bold text-large pr-4">Hibiscus</h4>
-        <h4 className="font-normal text-default-900">$12.50</h4>
+        <h4 className="font-normal text-default-900">$9.99</h4>
       </CardHeader>
       <CardBody className="flex justify-center overflow-visible py-2">
         <Image
@@ -53,10 +53,10 @@ export default function OutdoorCardComponent() {
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
-        <small className="text-default-500">12 Pieces</small>
+        <small className="text-default-500">05 Pieces</small>
         
-        <h4 className="font-bold text-large pr-4">The Snake Plant</h4>
-        <h4 className="font-normal text-default-900">$12.50</h4>
+        <h4 className="font-bold text-large pr-4">Fiddle Leaf</h4>
+        <h4 className="font-normal text-default-900">$15.99</h4>
       </CardHeader>
       <CardBody className="flex justify-center overflow-visible py-2">
         <Image
