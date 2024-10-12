@@ -8,10 +8,10 @@ export const siteConfig = {
       label: "Succulents",
       href: "/succulents",
     },
-    {
-      label: "Available Soon",
-      href: "/launchingsoon",
-    },
+    // {
+    //   label: "Available Soon",
+    //   href: "/launchingsoon",
+    // },
     {
       label: "About",
       href: "/about",
