@@ -1,15 +1,10 @@
 import React from "react";
-import {Card, CardHeader, CardBody, CardFooter, Avatar, Button} from "@nextui-org/react";
+import { Card, CardHeader, CardBody, CardFooter, Avatar, Button } from "@nextui-org/react";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 
-
 export default function ProfileComponent() {
   const [isFollowed, setIsFollowed] = React.useState(false);
-
-  function follow(){
-    <Link aria-label="Twitter" href={siteConfig.links.twitter}></Link>
-  }
 
   return (
     <Card className="max-w-[340px]">
@@ -21,24 +16,23 @@ export default function ProfileComponent() {
             <h5 className="text-small tracking-tight text-default-400">@yogeshk34</h5>
           </div>
         </div>
-        <Button
-          className={isFollowed ? "bg-transparent text-foreground border-default-200" : ""}
-          color="primary"
-          radius="full"
-          size="sm"
-          variant={isFollowed ? "bordered" : "solid"}
-          // onPress={() => setIsFollowed(!isFollowed)}
-          onClick={()=> {
-            follow
-          }}
-        >
-          {isFollowed ? "Unfollow" : "Follow"}
-        </Button>
+        <Link href={siteConfig.links.twitter} passHref>
+          <Button
+            // as="a"
+            className={isFollowed ? "bg-transparent text-foreground border-default-200" : ""}
+            color="primary"
+            radius="full"
+            size="sm"
+            variant={isFollowed ? "bordered" : "solid"}
+            target="_blank" // Open the link in a new tab
+            rel="noopener noreferrer"
+          >
+            {isFollowed ? "Unfollow" : "Follow"}
+          </Button>
+        </Link>
       </CardHeader>
       <CardBody className="px-3 py-0 text-small text-default-400">
-        <p>
-          FullStack developer. Join me on this coding adventure!
-        </p>
+        <p>FullStack developer. Join me on this coding adventure!</p>
       </CardBody>
       <CardFooter className="gap-3">
         <div className="flex gap-1">
