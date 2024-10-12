@@ -42,11 +42,11 @@ export default function ProfileComponent() {
       </CardBody>
       <CardFooter className="gap-3">
         <div className="flex gap-1">
-          <p className="font-semibold text-default-400 text-small">4</p>
+          <p className="font-semibold text-default-400 text-small">111</p>
           <p className=" text-default-400 text-small">Following</p>
         </div>
         <div className="flex gap-1">
-          <p className="font-semibold text-default-400 text-small">97.1K</p>
+          <p className="font-semibold text-default-400 text-small">21</p>
           <p className="text-default-400 text-small">Followers</p>
         </div>
       </CardFooter>

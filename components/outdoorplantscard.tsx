@@ -1,4 +1,7 @@
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
+import AddtobagButton from "./addtobagbutton";
+import BuyNowButton from "./buybutton";
+
 
 export default function OutdoorCardComponent() {
   return (
@@ -17,12 +20,18 @@ export default function OutdoorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
+
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         <small className="text-default-500">15 Pieces</small>
         <h4 className="font-bold text-large pr-4">Rosemary</h4>
         <h4 className="font-normal text-default-900">$5.99</h4>
+        
       </CardHeader>
       <CardBody className="flex justify-center overflow-visible py-2">
         <Image
@@ -32,7 +41,12 @@ export default function OutdoorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
+
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
@@ -49,7 +63,12 @@ export default function OutdoorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
+
     <Card className=" flex justify-center py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
@@ -66,6 +85,10 @@ export default function OutdoorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
     </div>
   );

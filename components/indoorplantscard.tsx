@@ -1,4 +1,6 @@
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
+import BuyNowButton from "./buybutton";
+import AddtobagButton from "./addtobagbutton";
 
 export default function IndooorCardComponent() {
   return (
@@ -18,6 +20,11 @@ export default function IndooorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
+      
     </Card>
 
     <Card className=" flex justify-center py-4">
@@ -34,6 +41,10 @@ export default function IndooorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
 
     <Card className=" flex justify-center py-4">
@@ -52,6 +63,10 @@ export default function IndooorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
 
     <Card className=" flex justify-center py-4">
@@ -70,6 +85,10 @@ export default function IndooorCardComponent() {
           width={270}
         />
       </CardBody>
+      <div className="flex justify-center gap-4 cursor-pointer">
+      <BuyNowButton/>
+      <AddtobagButton/>
+      </div>
     </Card>
     </div>
   );

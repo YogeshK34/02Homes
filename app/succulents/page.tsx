@@ -17,6 +17,7 @@ export default function BlogPage() {
         <Succulents />
       </div>
       <div className={subtitle({ class: "mt-4" })}>
+        <b>What are Succulents?</b><br/>
       Succulents are a type of plant known for their thick, fleshy leaves or stems that are specially adapted to store water. This adaptation allows them to thrive in arid and dry environments where water is scarce. 
       Succulents come in a wide variety of shapes, sizes, and colors, and they are often prized for their unique appearance and low-maintenance care requirements
       </div><br></br>
