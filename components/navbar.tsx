@@ -13,6 +13,7 @@ import { Input } from "@nextui-org/input";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
+import { ThemeSwitch } from "./theme-switch";
 
 import { siteConfig } from "@/config/site";
 // import { ThemeSwitch } from "@/components/theme-switch";
@@ -83,7 +84,7 @@ export const Navbar = () => {
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
             <GithubIcon className="text-default-500" />
           </Link>
-          {/* <ThemeSwitch /> */}
+          <ThemeSwitch />
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
       </NavbarContent>
@@ -92,7 +93,7 @@ export const Navbar = () => {
         <Link isExternal aria-label="Github" href={siteConfig.links.github}>
           <GithubIcon className="text-default-500" />
         </Link>
-        {/* <ThemeSwitch /> */}
+        <ThemeSwitch />
         <NavbarMenuToggle />
       </NavbarContent>
 
